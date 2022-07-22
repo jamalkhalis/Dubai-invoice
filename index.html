@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nox Bridge's Invoice</title>
+
+	<style type="text/css">
+		body {
+			font-family: sans-serif;
+		}
+		.container {
+			width: 1140px;
+			margin: 0 auto;
+			margin-top: 5rem;
+			margin-bottom: 5rem;
+		}
+		.fw-bold {
+			font-weight: bold;
+		}
+		.icon-1 {
+			display: inline-block;
+			border-radius: 50%;
+			box-shadow: 0px 0px 0px 0.5px white, 0px 0px 0px 3px #5c5f62;
+			width: 5px;
+			height:5px;
+			background: #5c5f62;
+			position: relative;
+			top: -3.5px;
+		}
+		.icon-2 {
+			display: inline-block;
+			border-radius: 50%;
+			box-shadow: 0px 0px 0px 3px #8a6116;
+			width: 5px;
+			height:5px;
+			position: relative;
+			top: -3.5px;
+		}
+
+		.icon-3 {
+			display: inline-block;
+			border-radius: 50%;
+			box-shadow: 0px 0px 0px 4px #f6f6f7;
+			width: 18px;
+			height:18px;
+			background: white;
+			position: relative;
+		}
+
+		.ps-1 {
+			padding-left: 5px;
+		}
+		.rounded-pill {
+			border: 1px solid #8c9196;
+			border-radius: 50rem;
+			display: inline-block;
+			padding: 0.3rem 0.6rem 0.2rem 0.6rem;
+		}
+		.mt-1 {
+			margin-top: 10px;
+		}
+		.mt-2 {
+			margin-top: 20px;
+		}
+		.mt-3 {
+			margin-top: 5px;
+		}
+		.mt-4 {
+			margin-top: 60px;
+		}
+		.mt-5 {
+			margin-top: 30px;
+		}
+
+		.pt-1 {
+			padding-top: 10px;
+		}
+		.py-1 {
+			padding-top: 10px;
+			padding-bottom: 15px;
+		}
+
+		.flex {
+			display: flex;
+		}
+		.justify-content-between {
+			justify-content: space-between;
+		}
+		.col-1 {
+			width: 30%;
+		}
+
+		.col-2 {
+			width: 65%;
+		}
+		.fs-1 {
+			font-size: 1.2rem;
+		}
+		.fs-2 {
+			font-size: 1.5rem;
+		}
+
+		.text-decoration-underline {
+			text-decoration: underline;
+		}
+		.justify-content-around {
+			justify-content: space-around;
+		}
+		.position-absolute {
+			position: absolute;
+		}
+		.position-relative {
+			position: relative;
+		}
+		.rounded-1 {
+			border: 1px solid #e1e3e5;
+			border-radius: 0.3rem;
+		}
+		.top-1 {
+			top: -13px;
+		}
+		.left-1 {
+			left: 30px;
+		}
+		.rounded-pill-2 {
+			border: 1px solid #8c9196;
+			border-radius: 60rem;
+			display: inline-block;
+			padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+			background: white;
+		}
+		.w-50 {
+			width: 70%;
+		}
+		.border-bottom-2 {
+			border-bottom: 1px solid #e1e3e5;
+		}
+		.inside-timeline {
+			margin-left: 22px;
+			border-left: 5px solid #c9cccf;
+			padding-left: 30px;
+		}
+		.top-2 {
+			top: 1px;
+		}
+		.left-2 {
+			left: -41px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div>
+			<span class="fw-bold fs-2">#2351WOA</span>
+
+			<span class="rounded-pill">
+				<span class="icon-1">
+				</span>
+				<span class="ps-1">Paid</span>
+			</span>
+
+			<span class="rounded-pill">
+				<span class="icon-2"></span>
+				<span class="ps-1">Unfulfilled</span>
+			</span>
+
+		</div>
+		<div class="mt-1">
+			<span>22 May 2022</span>
+			<span>at</span>
+			<span> 9:27 pm </span>
+			<span>from Online Store</span>
+		</div>
+
+		<div class="flex justify-content-between mt-1">
+
+			<div class="col-2"> 
+
+				<div class="flex justify-content-between">
+					<span class="fw-bold">Unfulfilled (1)</span>
+					<span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5c5f62" class="bi bi-three-dots" viewBox="0 0 16 16">
+						  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+						</svg>
+					</span>
+				</div>
+
+				<div class="mt-1">
+					<span>Location</span>
+					<br>
+					<span>Dubai</span>
+				</div>
+
+
+				<!-- product section -->
+				<div class="mt-2 flex justify-content-between ">
+					<div class="position-relative">
+						<img class="rounded-1" src="img.png" width="40">
+						<span class="rounded-pill-2 position-absolute top-1 left-1">1</span>
+					</div>
+
+					<div>
+						<span class="text-decoration-underline">Diesel Mr. Daddy 2.0 Chronograph All Gold Men's Watch DZ7399</span>
+						<br>
+						<span>SKU: DZ7399;DZ7399;dubai</span>
+					</div>
+
+					<div>
+						$209.00 × 1
+					</div>
+
+					<div>
+						$209.00
+					</div>
+				</div>
+				<!-- End product section -->
+				
+
+				<div class="fw-bold fs-2 mt-2">Paid</div>
+
+				<div class="flex justify-content-between">
+					<div>Subtotal</div>
+					<div class="w-50">1 item</div>
+					<div>$209.00</div>
+				</div>
+
+				<div class="flex justify-content-between mt-1">
+					<div>Shipping</div>
+					<div class="w-50">
+						DHL Express Shipping (1-7 Business Days) (Covid-19 Update) (0.88 lb)
+					</div>
+					<div>$0.00</div>
+				</div>
+
+				<div class="flex justify-content-between mt-1 border-bottom-2">
+					<div class="fw-bold">Total</div>
+					<div class="fw-bold">$209.00</div>
+				</div>
+
+				<div class="flex justify-content-between mt-1 border-bottom-2">
+					<div>Paid by customer</div>
+					<div>$209.00</div>
+				</div>
+
+
+
+				<div class="mt-4">
+					<div class="fw-bold fs-1">Timeline</div>
+				</div>
+
+				<div class="inside-timeline py-1">
+					<div class="fw-bold">YESTERDAY</div>
+
+					<div class="mt-2 position-relative">
+						<span class="icon-3 position-absolute top-2 left-2"></span>
+						<div class="flex justify-content-between">
+							<div>The phone number +1 205-300-2774 was added to this order.</div>
+							<div>9:27 pm</div>
+						</div>
+					</div>
+
+					<div class="mt-4 position-relative">
+						<span class="icon-3 position-absolute top-2 left-2"></span>
+						<div class="flex justify-content-between">
+							<div>Order confirmation email was sent to Fname Lname (email@gmail.com).</div>
+							<div>9:27 pm</div>
+						</div>
+					</div>
+
+					<div class="mt-5 position-relative">
+						<span class="icon-3 position-absolute top-2 left-2"></span>
+						<div class="flex justify-content-between">
+							<div>A $209.00 USD payment was processed on Buy now, pay later with Klarna.</div>
+							<div>9:27 pm</div>
+						</div>
+					</div>
+
+					<div class="mt-2 position-relative">
+						<span class="icon-3 position-absolute top-2 left-2"></span>
+						<div class="flex justify-content-between">
+							<div>Fname Lname placed this order on Online Store (checkout #23270133989527).</div>
+							<div>9:27 pm</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+
+
+
+			<div class="col-1">
+
+				<div class="flex justify-content-between">
+					<span class="fw-bold">Customer</span>
+					<span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#5c5f62" class="bi bi-x" viewBox="0 0 16 16">
+						  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+						</svg>
+					</span>
+				</div>
+
+				<div class="mt-1">
+					<span class="text-decoration-underline">Fname Lname</span>
+					<div class="mt-3">1 orders</div>
+				</div>
+
+				<div class="mt-2 flex justify-content-between">
+					<div class="fw-bold">CONTACT INFORMATION</div>
+					<div>Edit</div>
+				</div>
+
+				<div class="mt-2">
+					email@gmail.com
+				</div>
+
+				<div class="mt-2 flex justify-content-between">
+					<div class="fw-bold">SHIPPING ADDRESS</div>
+					<div>Edit</div>
+				</div>
+
+				<div class="mt-2">
+					<div>Fname Lname</div>
+					<div>1815 address Rd</div>
+					<div>Ward AL 36922</div>
+					<div>United States</div>
+					<div>(205) 200-2774</div>
+				</div>
+
+				<div class="fw-bold mt-2">
+					BILLING ADDRESS
+				</div>
+
+				<div class="mt-2">
+					Same as shipping address
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
